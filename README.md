@@ -9,6 +9,7 @@
         Finální dokončení                     22.10 - 11.11
         Projektová dokumentace                12.11 - 18.11 
         Prezentace                            19.11 - 25.11
+        *** ahoj
         
                     
                     
