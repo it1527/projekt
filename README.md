@@ -8,7 +8,7 @@
         Zprovoznění čtečky                    8.10  - 21.10
         Finální dokončení                     22.10 - 11.11
         Projektová dokumentace                12.11 - 18.11 
-        
+        Prezentace                            19.11 - 25.11
         
                     
                     
