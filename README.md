@@ -1,4 +1,4 @@
-*** ahoj
+### ahoj
 # projekt
                     Otevření zámku na zakladě rozpoznání otisku prstu
                     
