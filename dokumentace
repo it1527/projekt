@@ -1,0 +1,9 @@
+platformio
+    upload - pio run -t upload
+           - pio run -t uploadfs (server)
+esptool (na vymazani eprom paměti na esp)
+           - pip install esptool (instalace)
+           - esptool.py erase_flash (vymazani)
+           
+mqqt server
+           - https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-ubuntu-16-04
