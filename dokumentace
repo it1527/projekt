@@ -7,5 +7,14 @@ esptool (na vymazani eprom paměti na esp)
            
 mqqt server
            - https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-ubuntu-16-04
-open CV    - https://hub.packtpub.com/fingerprint-detection-using-opencv/        
+open CV    - https://hub.packtpub.com/fingerprint-detection-using-opencv/   
+
+serial monitor v terminalu - https://hub.packtpub.com/fingerprint-detection-using-opencv/
            
+ mqtt server pc - mosquitto_pub -h localhost -t test -m "hello world" (cmd jakoby esp na vyzkoušení)
+                - mosquitto_sub -h localhost -t '#' -v (pripojeni na mqqt server z terminalu)
+ 
+                                
+                    
+
+        
