@@ -15,6 +15,7 @@ serial monitor v terminalu - https://hub.packtpub.com/fingerprint-detection-usin
                 - mosquitto_sub -h localhost -t '#' -v (pripojeni na mqqt server z terminalu)
  
                                 
-                    
+  pasrsing json flask
+  https://techtutorialsx.com/2017/01/08/esp8266-posting-json-data-to-a-flask-server-on-the-cloud/
 
         
