@@ -1,6 +1,5 @@
-### ahoj
-# projekt
-                    Otevření zámku na zakladě rozpoznání otisku prstu
+### Rozpis práce
+                    
                     
         Seznámení s projektem                 10.9  - 16.9
         Zakoupení potřebných součástí         17.9  - 23.9
@@ -10,11 +9,9 @@
         Finální dokončení                     22.10 - 11.11
         Projektová dokumentace                12.11 - 18.11 
         Prezentace                            19.11 - 25.11
-        
-        
-                    
-                    
- Jedná se pouze o odhadovaný harmonogram, který se může kdykoliv v případě potřeby pozměnit.
+      
+      
+  Jedná se pouze o odhadovaný harmonogram, který se může kdykoliv v případě potřeby pozměnit...
        
        
   
