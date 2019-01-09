@@ -5,3 +5,24 @@ fingerprint senzor pinout - https://cdn-learn.adafruit.com/assets/assets/000/048
 reduction for 5V to 3.3 - https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2015/09/voltage-divider-circuit.png?resize=408%2C151&ssl=1
 3.3V to 5 V tranzistor - https://i.stack.imgur.com/RJQdW.png
 tarnzistor pinout - https://www.el-component.com/images/bipolar-transistor/bc337-pinout.jpg
+
+
+platformio
+    upload - pio run -t upload
+           - pio run -t uploadfs (server)
+esptool (na vymazani eprom paměti na esp)
+           - pip install esptool (instalace)
+           - esptool.py erase_flash (vymazani)
+           
+mqqt server
+           - https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-ubuntu-16-04
+open CV    - https://hub.packtpub.com/fingerprint-detection-using-opencv/   
+
+serial monitor v terminalu - https://hub.packtpub.com/fingerprint-detection-using-opencv/
+           
+ mqtt server pc - mosquitto_pub -h localhost -t test -m "hello world" (cmd jakoby esp na vyzkoušení)
+                - mosquitto_sub -h localhost -t '#' -v (pripojeni na mqqt server z terminalu)
+ 
+                                
+  pasrsing json flask
+  https://techtutorialsx.com/2017/01/08/esp8266-posting-json-data-to-a-flask-server-on-the-cloud/
