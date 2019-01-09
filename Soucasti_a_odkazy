@@ -1,0 +1,78 @@
+#Součásti:
+        ARDUINO - https://arduino-shop.cz/arduino/1164-arduino-nano-v30-atmega328-16m-5v-ch340g-zakladni-deska.html?gclid=EAIaIQobChMIofHxpsTh3wIVBYXVCh2uUQq1EAQYASABEgIq8_D_BwE
+        
+        DISPLAY - https://arduino-shop.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry-1487765909.html?gclid=EAIaIQobChMI8J_x08Lh3wIVk-FRCh2z5gg0EAQYASABEgIWxvD_BwE
+
+        SENSOR - https://www.ebay.com/itm/DY50-Optical-Fingerprint-reader-Sensor-Module-All-in-one-For-Arduino-Locks/112070491878?hash=item1a17ebfee6:g:jtQAAOSwjyhaRxMM
+        
+        ESP - [1] https://www.aerial.net/shop/product/1757/nodemcu-lolin-esp12e-esp8266.html
+              
+              [2] https://www.banggood.com/cs/Wemos-D1-Mini-ESP32-ESP-32-WiFiBluetooth-Internet-Of-Things-Development-Board-Based-ESP8266-p-1205854.html?gmcCountry=CZ&currency=CZK&createTmp=1&utm_source=googleshopping&utm_medium=cpc_union&utm_content=2zou&utm_campaign=ssc-cz-cs-all&gclid=EAIaIQobChMI04Day8Th3wIVhvdRCh1VegxREAQYAiABEgJCTfD_BwE&cur_warehouse=CN
+              
+              [3] https://www.lelong.com.my/arduino-wemos-d1-wifi-uno-esp-8266-iot-ide-compatible-board-junefoo3979-190688837-2020-03-Sale-P.htm
+
+
+#Knihovny:
+//seznam řady knihoven se kterymi jsem pracoval, nejsou všechny součastí hotového projektu.
+// Knihovny použité ve finalni verzi jsou uvedeny v dokumentaci.
+
+knihovna LED:
+        https://www.arduinolibraries.info/libraries/liquid-crystal
+        take potrebna knihovan Wire.h //ta je soucasti programu
+        
+        
+        
+knihovna Čtečky:
+        Arduino: https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library
+        ESP: https://github.com/loctranthanh/fingerprint-esp8266
+        
+        
+        
+knihovna SoftwareSerial:
+        Arduino: https://github.com/PaulStoffregen/SoftwareSerial
+        
+        //Na ESP byl s knihovnou problém vyzkoušel jsem obdobné např:
+         [1] https://github.com/dok-net/espsoftwareserial
+         
+         [2] https://github.com/plerup/espsoftwareserial
+         
+         [3] https://circuits4you.com/2016/12/14/software-serial-esp8266/
+         
+         a další..
+         
+         
+Knihovny pro debug přes tellnet:
+        [1] https://github.com/esp8266/Arduino
+        
+        [2] https://github.com/esp8266/Arduino/tree/master/doc/esp8266wifi
+        
+        [3] https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266mDNS
+        
+        [4] https://github.com/espressif/arduino-esp32/blob/master/libraries/WiFi/src/WiFi.h
+        
+        
+        
+Nějaké další vyzkoušené knihovny:
+        LiquidCrystal_I2C, Adafruit LiquidCrystal, jm_liquidCrystal_I2C, HardwareSerial_RS485, SomeSerial, Adafruit_ESP8266,
+        AltSoftSerial, ESPEasySerial, SoftWire...
+        
+        
+       
+
+#Seznam použitých zdrojů:
+        [1]     Adafruit fingerprint datasheet [online]. 2018 [cit. 2019-01-06]. Dostupné z: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-optical-fingerprint-sensor.pdf
+        
+        [2]	Adafruit fingerprint datasheet [online]. 2016 [cit. 2019-01-06]. Dostupné z: https://www.marutsu.co.jp/contents/shop/marutsu/ds/adafruit-optical-fingerprint-sensor.pdf
+        
+        [3]	Arduino fingerprint sensor tutorial  [online]. 2017 [cit. 2019-01-06]. Dostupné z: https://www.hackster.io/nickthegreek82/arduino-fingerprint-sensor-tutorial-103bb4
+        
+        [4]	The engineering projects [online]. 2017 [cit. 2019-01-06]. Dostupné z: https://www.theengineeringprojects.com/2017/01/use-arduino-software-serial.html
+        
+        [5]     Arduino forum: forum [online]. 2015 [cit. 2019-01-06]. Dostupné z: https://forum.arduino.cc/index.php?topic=354933.0
+        
+        [6]	Eletronics [online]. [cit. 2019-01-06]. Dostupné z: https://electronics.stackexchange.com/questions/56093/how-to-use-a-3v-output-to-control-a-5v-relay
+        
+        [7]	Espressif [online]. 2018 [cit. 2019-01-06]. Dostupné z: https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
+        
+        [8]	ESP serial comumnication [online]. [cit. 2019-01-06]. Dostupné z: https://circuits4you.com/2016/12/16/esp8266-serial-communication/
+        
