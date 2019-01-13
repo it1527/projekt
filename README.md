@@ -1,17 +1,2 @@
-### Rozpis práce
-                    
-                    
-        Seznámení s projektem                 10.9  - 16.9
-        Zakoupení potřebných součástí         17.9  - 23.9
-        Návrh zapojení  a zapojení            24.9  - 30.9
-        Zprovoznění displaye                  1.10  - 7.10
-        Zprovoznění čtečky                    8.10  - 21.10
-        Finální dokončení                     22.10 - 11.11
-        Projektová dokumentace                12.11 - 18.11 
-        Prezentace                            19.11 - 25.11
-      
-      
-  Jedná se pouze o odhadovaný harmonogram, který se může kdykoliv v případě potřeby pozměnit...
-       
-       
-  
+ ## Vítám Vás na mé Githubové stránce se závěrečným středoškolským projektem.
+ Jsem studentem SSPU Opava. Podrobné informace o projektu se dozvíte dále.
